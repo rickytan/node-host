@@ -1,0 +1,48 @@
+{
+  "name": "node-host",
+  "preferGlobal": true,
+  "version": "0.1.0",
+  "description": "A Node.js app host manager, it helps you proxy a domain name to a specific Node.js app.",
+  "main": "./index.js",
+  "bin": {
+    "nhost": "./bin/nhost"
+  },
+  "scripts": {
+    "test": "domain-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rickytan/node-host.git"
+  },
+  "keywords": [
+    "host",
+    "proxy",
+    "load balance",
+    "nginx",
+    "multi vhost",
+    "domain name",
+    "shared host"
+  ],
+  "author": {
+    "name": "Ricky Tan",
+    "email": "ricky.tan.xin@gmail.com",
+    "url": "http://rickytan.cn"
+  },
+  "maintainers": [],
+  "license": {
+    "type": "MIT"
+  },
+  "bugs": {
+    "url": "https://github.com/rickytan/node-host/issues"
+  },
+  "engines": {
+    "node": ">=0.10.x"
+  },
+  "homepage": "https://github.com/rickytan/node-host",
+  "dependencies": {
+    "cli-color": "^1.0.0",
+    "commander": "^2.8.1",
+    "mkdirp": "^0.5.1",
+    "nssocket": "^0.5.3"
+  }
+}
